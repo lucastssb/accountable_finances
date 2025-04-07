@@ -1,26 +1,45 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
         {
-            "name": "accountable_finances",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "accountable_finances (profile mode)",
+            "name": "accountable_finances (dev)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "args": ["--flavor", "dev"]
         },
         {
-            "name": "accountable_finances (release mode)",
+            "name": "accountable_finances (prod)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "args": ["--flavor", "prod"]
+        },
+        {
+            "name": "accountable_finances (dev profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": ["--flavor", "dev"]
+        },
+        {
+            "name": "accountable_finances (prod profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": ["--flavor", "prod"]
+        },
+        {
+            "name": "accountable_finances (dev release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": ["--flavor", "dev"]
+        },
+        {
+            "name": "accountable_finances (prod release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": ["--flavor", "prod"]
         }
     ]
 }
