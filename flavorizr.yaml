@@ -1,0 +1,19 @@
+flavors:
+  prod:
+    app:
+      name: "Accountable Finances"
+
+    android:
+      applicationId: "com.lucastssb.accountablefinances"  
+    ios:
+      bundleId: "com.lucastssb.accountablefinances"
+  
+  dev:
+    app:
+      name: "Accountable Finances"
+  
+    android:
+      applicationId: "com.lucastssb.accountablefinances.dev"
+    ios:
+      bundleId: "com.lucastssb.accountablefinances.dev"
+   
