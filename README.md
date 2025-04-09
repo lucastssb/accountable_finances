@@ -63,7 +63,7 @@ To get a local copy up and running, follow these simple steps.
 
 * [Flutter](https://flutter.dev/) - The UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
 * [Dart](https://dart.dev/) - The programming language used by Flutter.
-* _(Add any other significant packages or technologies used, e.g., state management like Provider/Riverpod/Bloc, database like SQFlite/Firebase, etc.)_
+<!-- * _(Add any other significant packages or technologies used, e.g., state management like Provider/Riverpod/Bloc, database like SQFlite/Firebase, etc.)_ -->
 
 ## Contributing 💪
 
